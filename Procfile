@@ -1,1 +1,1 @@
-web:python ./src/crud.py
+web: gunicorn app:crud
